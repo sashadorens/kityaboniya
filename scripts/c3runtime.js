@@ -4385,7 +4385,6 @@ self.C3_GetObjectRefTable = function () {
 		C3.Behaviors.EightDir.Cnds.IsMoving,
 		C3.Plugins.Audio.Cnds.IsSilent,
 		C3.Plugins.Audio.Cnds.IsAnyPlaying,
-		C3.Plugins.Keyboard.Cnds.IsKeyDown,
 		C3.Behaviors.Platform.Cnds.IsMoving,
 		C3.Plugins.System.Acts.AddVar,
 		C3.Plugins.Text.Acts.SetText,
@@ -4396,8 +4395,7 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.System.Acts.SaveState,
 		C3.Plugins.Browser.Acts.Close,
 		C3.Plugins.Mouse.Cnds.IsOverObject,
-		C3.Plugins.Mouse.Cnds.OnObjectClicked,
-		C3.Behaviors.Platform.Cnds.IsJumping
+		C3.Plugins.Mouse.Cnds.OnObjectClicked
 	];
 };
 self.C3_JsPropNameTable = [
@@ -4473,6 +4471,8 @@ self.C3_JsPropNameTable = [
 	{Тач: 0},
 	{Кп: 0},
 	{Кп2: 0},
+	{Скат: 0},
+	{спрайт9068: 0},
 	{Переменная1: 0},
 	{Переменная2: 0},
 	{Уровень: 0},
@@ -4591,15 +4591,15 @@ self.C3_ExpressionFuncs = [
 		() => 0.2,
 		() => 475,
 		() => 38,
-		() => 4.3,
+		() => 9.4,
 		() => 1418,
 		() => 651.7,
 		() => "Анимация 1",
-		() => -2.7,
+		() => -0.8,
 		() => 3.7,
 		() => 267,
 		() => 112,
-		() => 6.3,
+		() => 15.8,
 		() => 14.5,
 		() => 1,
 		() => "Animation 1",
@@ -4607,6 +4607,7 @@ self.C3_ExpressionFuncs = [
 		() => 3.8,
 		() => 1.6,
 		() => 8.8,
+		() => 4.3,
 		() => 1.5,
 		() => 2,
 		() => 36.1,
@@ -4642,8 +4643,7 @@ self.C3_ExpressionFuncs = [
 		() => 798,
 		() => 25,
 		() => 1.7,
-		() => 17.8,
-		() => "Прыжок"
+		() => 17.8
 ];
 
 
